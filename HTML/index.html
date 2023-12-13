@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Shyama Prasad Mukherjee University Project</title>
+    
+        <!-- --------------- font-awesome ------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+    <!-- ----------------- favicon ---------------- -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- ------------------- CSS Links ------------------- -->
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/Responsiveness/indexRes.css">
+</head>
+
+<body>
+
+    <!--
+        ------------------Top Heading------------------
+    -->
+    <header>
+
+        <div id="moving-link">
+            <marquee direction="right">
+                <ul>
+                    <li>
+                        <img src="/gif-image/newgreen.gif">
+                        <a href="#">Fill Form for Creation of Academic Bank of Credit (ABC) ID </a>
+                    </li> &nbsp;
+                    <li>
+                        <img src="/gif-image/newgreen.gif">
+                        <a href="#">Click to Fill Admission Form for UG and PG through Chancellor Portal</a>
+                    </li>
+                </ul>
+            </marquee>
+        </div>
+
+        <div id="web-link-first">
+            <div id="sign-in-up">
+                <button class="sign">
+                    <a href="/HTML/Log-Sign/login_page.html">
+                        <i class="fa-solid fa-arrow-right" style="color: #fc601d;"></i>
+                        Sign In
+                    </a>
+                </button>
+                <span>|</span>
+                <button class="sign">
+                    <a href="/HTML/Log-Sign/signup_page.html">
+                        <i class="fa-regular fa-user" style="color: #fc601d;"></i>
+                        Sign Up
+                    </a>
+                </button>
+                <button class="sign">
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right" style="color: #fc601d;"></i>
+                        Sign In Session From 2022
+                    </a>
+                </button>
+            </div>
+            <div id="links">
+                <a href="#">AISHE</a>
+                <a href="#">CUET</a>
+                <a href="#">Recruitment</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Tender</a>
+                <a href="#">Feedback</a>
+                <a href="#">Gallery</a>
+                <button><a href="#">Webmail Login </a> <i class="fa-solid fa-arrow-right"
+                        style="color: #ffffff;"></i></button>
+            </div>
+        </div>
+
+        <!-- --------------- Navbar ------------- -->
+        <div id="web-link-second">
+            <i class="fa-solid fa-bars" id="hamburger" onclick="toggle()"></i>
+            <div class="logo">
+                <a href="#">
+                    <img src="/images/dspmu_logo.png" alt="logo">
+                </a>
+            </div>
+            <div id="pop-up-menu" class="hide">
+                <ul>
+                    <li class="nav-menu menu-item">Home</li>
+                    <li class="nav-menu menu-item">About Us <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                            <li><a href="/HTML/about us/about.html">About University</a></li>
+                            <li><a href="/HTML/about us/mission.html">Our Mission</a></li>
+                            <li><a href="/HTML/about us/vision.html">Our Vision</a></li>
+                            <li><a href="/HTML/about us/achievements.html">Achievements</a></li>
+                            <li><a href="https://www.dspmuranchi.ac.in/pdf/KULGEET.pdf">Kulgeet</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=WiIBVB-x__g">Kulgeet Video <i
+                                        class="fa-brands fa-youtube" style="color: #f31b1b;"></i></a></li>
+                            <li><a href="/HTML/about us/vice-chancellor-desk.html">VC's Desk</a></li>
+                        </section>
+                    </li>
+                    <li class="nav-menu menu-item">Departments <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                            <li>Ph.D</li>
+                            <li>Humanities</li>
+                            <li>Science</li>
+                            <li>Social Science</li>
+                            <li>Vocational</li>
+                            <li>Certificate</li>
+                            <li>Diploma</li>
+                            <li><a href="#">Commerce</a></li>
+                        </section>
+                    </li>
+                    <li class="nav-menu menu-item">Facilities <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                            <li>E-Library</li>
+                            <li><a href="#">Hostels</a></li>
+                            <li><a href="#">Canteen</a></li>
+                            <li><a href="#">Medical Clinic</a></li>
+                            <li><a href="#">Health Club</a></li>
+                            <li><a href="#">Wi-Fi Campus</a></li>
+                            <li><a href="#">Banking</a></li>
+                            <li><a href="#">Guest House</a></li>
+                        </section>
+                    </li>
+                    <li class="nav-menu menu-item">Student Corner <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                            <li><a href="#">Admission</a></li>
+                            <li><a href="/HTML/student-corner/syllabus.html">Syllabus</a></li>
+                            <li><a href="https://www.dspmuranchi.ac.in/pdf/Notice%20for%20football%20and%20Cricket.pdf">Registration Form(Cricket/Football)</a></li>
+                            <li><a href="/HTML/student-corner/exam_info.html">Examination Information</a></li>
+                            <li><a href="/HTML/student-corner/result.html">Results</a></li>
+                            <li><a href="#">Convocation</a></li>
+                            <li><a href="https://www.dspmuranchi.ac.in/pdf/Post%20Matric%20(Within%20State%20and%20Outside%20State%20)2019-20%20Advt%20(Lt.%20no.%20902%20Dt.%2012.07.2019)%20.pdf">Scholarships</a></li>
+                            <li><a href="#">Placement Details</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">NCC</a></li>
+                            <li><a href="https://www.dspmuranchi.ac.in/pdf/NSSBlood.pdf">NSS</a></li>
+                            <li><a href="#">Student's Union</a></li>
+                            <li><a href="https://www.dspmuranchi.ac.in/pdf/Academic_Calendar.pdf">Academic Calendar</a></li>
+                            <li><a href="#">Online Examination <img src="/gif-image/newgreen.gif"></a></li>
+                            <li><a href="#">Downloasd Entrance Admit Card <img src="/gif-image/newgreen.gif"></a></li>
+                        </section>
+                    </li>
+                    <li class="nav-menu menu-item">Research <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                    <li><a href="#">Major Projects</a></li>
+                    </section>
+                    </li>
+                    <li class="nav-menu menu-item">IQAC <i class="fa-solid fa-angle-down"></i>
+                        <section class="pop hide">
+                    <li><a href="#">IQAC</a></li>
+                    <li><a href="#">NAAC</a></li>
+                    </section>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!--
+        ------------------Slider------------------
+    -->
+    <div id="zoom-in-slider">
+        <div class="slider">
+            <img src="/images/slider/Slider-0.jpg" class="slides">
+            <img src="/images/slider/Slider-1.jpg" class="slides">
+            <img src="/images/slider/Slider-2.jpg" class="slides">
+            <img src="/images/slider/Slider-3.jpg" class="slides">
+            <img src="/images/slider/Slider-4.jpg" class="slides">
+            <img src="/images/slider/Slider-5.jpg" class="slides">
+            <img src="/images/slider/Slider-6.jpg" class="slides">
+        </div>
+        <div id="slider-button">
+            <button id="btn1">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button id="btn2">
+                <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 
+        -------------- main-content ---------------
+     -->
+
+    <div id="heads">
+        <div id="one-box">
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="/images/heads/chancelleor.jpg">
+                    </div>
+                    <div class="name-and-post">
+                        <p class="head-name" style="color: #0eac87;">Sri C.P. Radhakrishnan</p>
+                        <p>Chancellor</p>
+                    </div>
+                </div>
+                <div class="box-detail">
+                    "The Governor as Chancellor plays a very constructive role in the administration of the
+                    Universities.
+                    The Chancellor being the Governor can help to" <a href="#">Read More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="/images/heads/VC.jpg">
+                    </div>
+                    <div class="name-and-post">
+                        <p class="head-name" style="color: rgb(245, 149, 15);">Prof. (Dr.) Tapan Kumar Shandilya</p>
+                        <p> Vice-Chancellor</p>
+                    </div>
+                </div>
+                <div class="box-detail">
+                    "The Governor as Chancellor plays a very constructive role in the administration of the
+                    Universities.
+                    The Chancellor being the Governor can help to" <a href="#">Read More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="/images/heads/dsw.jpg">
+                    </div>
+                    <div class="name-and-post">
+                        <p class="head-name" style="color: rgb(15, 134, 245);">Dr. S.M. Abbas</p>
+                        <p>DSW</p>
+                    </div>
+                </div>
+                <div class="box-detail">
+                    "The Governor as Chancellor plays a very constructive role in the administration of the
+                    Universities.
+                    The Chancellor being the Governor can help to" <a href="#">Read More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="/images/heads/registrar.jpg">
+                    </div>
+                    <div class="name-and-post">
+                        <p class="head-name" style="color: rgb(245, 19, 15);">Dr. (Mrs.) Namita Singh
+                        </p>
+                        <p>Registrar</p>
+                    </div>
+                </div>
+                <div class="box-detail">
+                    "The Governor as Chancellor plays a very constructive role in the administration of the
+                    Universities.
+                    The Chancellor being the Governor can help to" <a href="#">Read More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  ------------ News and about section having marquee tags -------------- -->
+    <div id="more">
+
+        <div id="news">
+            <div class="heading">
+                <h1>Latest News & Updates <i class="fa-solid fa-feather-pointed fa-beat"></i></h1>
+            </div>
+            <div class="tab-buttons">
+                <li>Latest Updates</li>
+                <li class="separator">|</li>
+                <li>Examination</li>
+                <li class="separator">|</li>
+                <li>Admission/Merit List</li>
+            </div>
+            <div id="latest-updates-content" class="tab-content">
+                <marquee behavior="" direction="up" scrollamount="1">
+                    <li><span><b>08</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/Eng Eigth.pdf">English
+                            Eighth Provisional Selection List 2023</a></li>
+                    <li><span><b>06</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Examination Notice_Fees Submission_PGDCG R Sem II.pdf">Post
+                            Graduate Diploma in Career Guidance &amp; Rehabilitation Semester – II</a></li>
+                    <li><span><b>06</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Examination Schedule_PGD CGR Sem II.pdf">End
+                            Semester Examination Schedule – 2023 PGDCG&amp;R Semester – II</a></li>
+                    <li><span><b>05</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/05.09.2023_LETTER PAD Office of the REGISTRAR_Placement Notice.pdf">PLACEMENT
+                            NOTICE</a></li>
+                    <li><span><b>05</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/geology3.pdf">Bachelor
+                            of Science-Bachelor of Science-Geology Semester-VI Session-2020-2023 Result</a></li>
+                    <li><span><b>05</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/ba eco.pdf">Bachelor
+                            of Arts-Economics Semester-VI Session-2020-2023 Result</a></li>
+                    <li><span><b>05</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/msc bot geol.pdf">Master of Science-Botany
+                            &amp; Geology semester-IV Session-2021-2023 Result</a></li>
+                    <li><span><b>05</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/ma kurux.pdf">Master
+                            of Master of Arts-Kurux &amp; Pol. Science Semester-IV Session-2021-2023 Result</a></li>
+                    <li><span><b>04</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/eng sixth.pdf">English
+                            Sixth Provisional Selection List 2023</a></li>
+                    <li><span><b>02</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/MA Arts IV1.pdf">Master of Arts-English ,Kharia
+                            , Santhali &amp; Urdu Semester-IV Session-2021-2023 Result</a></li>
+                    <li><span><b>02</b> Sep</span><a href="https://www.dspmuranchi.ac.in/pdf/News/msc zoo iv.pdf">Master
+                            of Science-Zoology semester-IV Session-2021-2023 Result</a></li>
+                    <li><span><b>01</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Fifth List English.pdf">English Fifth
+                            Provisional Selection List 2023</a></li>
+                    <li><span><b>01</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/second botany.pdf">Botany Second Provisional
+                            Selection List 2023</a></li>
+                    <li><span><b>01</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Pol Sc Ph.D..pdf">Result Ph.D. Pol Science 2023
+                            (Final)</a></li>
+                    <li><span><b>01</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/MID SEM EXAm Khortha.pdf">Khortha MID SEM
+                            Examination Notice</a></li>
+                    <li><span><b>01</b> Sep</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Result Notice - Bachelor of Arts-English Sem-VI.pdf">Result
+                            Notice - Bachelor of Arts-English Sem-VI (2020-2023)</a></li>
+                    <li><span><b>30</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Chemistry 3rd.pdf">Chemistry Third Provisional
+                            Selection List 2023</a></li>
+                    <li><span><b>29</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/BJMC4.pdf">BJMC Fourth
+                            Provisional Selection List 2023</a></li>
+                    <li><span><b>29</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Evening 3rd List.pdf">Commerce Third
+                            Provisional Selection List 2023 Evening Shift</a></li>
+                    <li><span><b>29</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Morning 3rd List.pdf">Commerce Third
+                            Provisional Selection List 2023 Morning Shift</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/nagpuri 61.pdf">Result
+                            Bachelor of Arts Nagpuri Semester 6</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/MJMC MFM 4.pdf">Result
+                            Master of Arts MFM MJMC Semester 4</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/MHA 3.pdf">Result
+                            Master of Hospital Administration Semester 3</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/MHA 1.pdf">Result
+                            Master of Hospital Administration Semester 1</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/Math 6.pdf">Result
+                            Bachelor of Science Mathematics Semester 6</a></li>
+                    <li><span><b>26</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/Amanat 1.pdf">Result
+                            Amanat Survey Semester 1</a></li>
+                    <li><span><b>25</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/nagpuri 6.pdf">Result
+                            Nagpuri Semester 6</a></li>
+                    <li><span><b>25</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/bot evs 6.pdf">Result
+                            Botany and EVS Semester 6</a></li>
+                    <li><span><b>25</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/mass com film.pdf">Result Mass Comm and Film
+                            Making Semeter 6</a></li>
+                    <li><span><b>25</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/ph. D result.pdf">Result Ph.D. Zoology 2023
+                            (Final)</a></li>
+                    <li><span><b>24</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/B.Sc Chem VI.pdf">Result Bachelor of Science
+                            Chemistry Semester VI 2023</a></li>
+                    <li><span><b>24</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/BA Math Pol Sc Urdu VI.pdf">Result Bachelor of
+                            Arts Mathematics Pol. Science Urdu Semester VI 2023</a></li>
+                    <li><span><b>24</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/24 volleyball.pdf">Volleyball Match
+                            Schedule</a></li>
+                    <li><span><b>24</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/MA Anthro IV.pdf">Result Master of Arts
+                            Anthropology Semester IV 2023</a></li>
+                    <li><span><b>24</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/PG Com IV.pdf">Result
+                            Master of Commerce Semester IV 2023</a></li>
+                    <li><span><b>24</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/Zoo 3rd.pdf">Zoology
+                            Third Provisional Selection List 2023</a></li>
+                    <li><span><b>24</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Eng Fourth List.pdf">English Fourth Provisional
+                            Selection List 2023</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Match Fixture Volleyball.pdf">Match Fixture
+                            Volleyball</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/geog hist phi sem 61.pdf">Result Bachelor of
+                            Arts Geography History Philosophy Hons. Semester 6 Examination Session 2020-23</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/geog khortha.pdf">Result of M.A. Geography,
+                            Khortha Semester IV Session 2021-2023</a></li>
+                    <li><span><b>23</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/zoo sem 6.pdf">Result
+                            Zoology Semester 6</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/General Notice_Step for Generating ABC ID.pdf">NOTICE
+                            FOR CREATING DIGILOCKER ACCOUNT AND ABC ID</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Geology UG 3rd Admission list.pdf">Geology
+                            Third Provisional Selection List 2023</a></li>
+                    <li><span><b>23</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Bachelor of Visual Arts 2nd Admission List.pdf">Visual
+                            Arts Second Provisional Selection List 2023</a></li>
+                    <li><span><b>22</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Sans Master IV.pdf">Result Master of Arts
+                            Sanskrit Semester 4</a></li>
+                    <li><span><b>22</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/MB Master IV.pdf">Result Master of Science
+                            Micrcobiology Semester 4</a></li>
+                    <li><span><b>22</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/Khorth Kurmali Kurukh Bachelor VI.pdf">Result
+                            Bachelor of Arts Khortha Kurmali Kurukh Semester VI</a></li>
+                    <li><span><b>22</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/MID Exam PGII UGIV.pdf">Mid-Semester
+                            Examination (MSE) for the Under Graduate Semester II, IV</a></li>
+                    <li><span><b>21</b> Aug</span><a
+                            href="https://www.dspmuranchi.ac.in/pdf/News/admission notice 2023.pdf">Admission Open for
+                            Environmental Science</a></li>
+                    <li><span><b>21</b> Aug</span><a href="https://www.dspmuranchi.ac.in/pdf/News/bba sem 6.pdf">Result
+                            BBA Semester 6</a></li>
+                </marquee>
+            </div>
+            <div id="examination-content" class="tab-content"></div>
+            <div id="merit-list-content" class="tab-content"></div>
+            <button> View All <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <div id="about">
+
+            <div class="heading">
+                <h1>About Us <i class="fa-solid fa-feather-pointed fa-beat"></i></h1>
+            </div>
+
+            <div class="tab-buttons">
+                <li>About University</li>
+                <li class="separator">|</li>
+                <li>Our Mission</li>
+                <li class="separator">|</li>
+                <li>Our Vision</li>
+            </div>
+
+            <div id="about-university-content" class="tab-content">
+
+                <div>Situated on the tropic of cancer, at an altitude of 651m from sea level amidst tropical flora and
+                    fauna, Ranchi College, Ranchi (now upgraded as a Unitary State University and known as Dr. Shyama
+                    Prasad Mukherjee University, Ranchi) had been established during the Pre- Independent India.
+                    Established in 1926 as a Government Intermediate College, it marched ahead and began Under-Graduate
+                    and post–graduate Courses in various subjects of Arts/Science in the year 1946.</div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Even after Independence, Ranchi College continued to celebrate its recognition as Government
+                        College.</li>
+                </div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Till the creation of Ranchi University, Ranchi on 12th July, 1960, it functioned as a Unit of
+                        Patna University, imparting quality Higher Education in faculties of Humanities, Science and
+                        Social
+                        Science.</li>
+                </div>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right" style="color: #fc601d;"></i></a>
+
+            </div>
+
+            <div id="our-mission-content" class="tab-content hidden">
+
+                <div>The University Grants Commission (UGC) has recognized Ranchi College, Ranchi as ‘College with
+                    Potential for Excellence’. The college aims at:</div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Activating thirst of learning among students.</li>
+                </div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Benefitting students from the latest advances of education.</li>
+                </div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Creating an institutional environment where the creativity of all individuals can thrive.</li>
+                </div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Developing the intellectual, moral, and practical foundations among students.</li>
+                </div>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right" style="color: #fc601d;"></i></a>
+
+            </div>
+
+            <div id="our-vision-content" class="tab-content hidden">
+
+                <div>Efforts sans vision never yield desired result. A person without vision only invites sufferings
+                    and
+                    criticism from all corners. Same is the case with educational institutions. Their success depends
+                    highly on vision, determination, perseverance, ambition and discipline of the person at the helm of
+                    affairs.</div>
+                <div>As the VC of the DSPMU, my thoughts are always about how to build, upgrade and elevate the
+                    intellectual, cultural and moral capabilities of the personnel of the college. Here is the vision
+                    for the college:</div>
+                <div class="list">
+                    <i>✓</i>
+                    <li>Academic freedom will be given to all the staff and students to engage into intellectual
+                        discourse and critical enquiry without fear and favour.</li>
+                </div>
+                <a href="#">Read More <i class="fa-solid fa-arrow-right" style="color: #fc601d;"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="data-display">
+        <div class="data-box">
+            <p class="big-font">756</p>
+            <p>FORM DEMAND</p>
+        </div>
+        <div class="data-box">
+            <P class="big-font">323</P>
+            <P>TOTAL FROM SALE</P>
+        </div>
+        <div class="data-box">
+            <P class="big-font">84</P>
+            <P>TOTAL FORM FILL UP</P>
+        </div>
+        <div class="data-box">
+            <p class="big-font">307</p>
+            <p>TOTAL ADMISSION</p>
+        </div>
+    </div>
+
+    <div id="video">
+        <div id="video-button">
+            <a href="https://www.youtube.com/watch?v=WiIBVB-x__g"><i class="fa-solid fa-play fa-beat"
+                    style="color: #ffffff;"></i></a>
+        </div>
+        <div id="text">
+            <p>Take a Video Tour to Learn Intro of</p>
+            <p>Dr. Shyama Prasad Mukherjee University with "कुल-गीत"</p>
+        </div>
+        <button class="watch-more-btn"><a href="https://www.youtube.com/@dspmu">Watch More <i
+                    class="fa-brands fa-youtube" style="color: #ffffff; font-size: 10px;"></i></a></button>
+    </div>
+
+    <div id="contact">
+        <div class="emails">
+            <p>Get in Touch:</p>
+            <p class="large"><b>registrar@dspmuranchi.ac.in</b></p>
+            <p class="large"><b>registrardspmuranchi@gmail.com</b></p>
+        </div>
+        <div id="circle">
+            or
+        </div>
+        <div id="number">
+            <p>Call Us Via:</p>
+            <p class="large"><b>+91 930 455 2610</b></p>
+        </div>
+    </div>
+
+    <div id="related-websites">
+        <a href="https://jharkhanduniversities.nic.in/home"><img src="/images/other-websites/CP.png"></a>
+        <span></span>
+        <a href="https://www.ugc.gov.in/"><img src="/images/other-websites/ugc_logo.png"></a>
+        <span></span>
+        <a href="https://www.inflibnet.ac.in/"><img src="/images/other-websites/inflibnet.png"></a>
+        <span></span>
+        <a href="https://www.ranchiuniversity.ac.in/"><img src="/images/other-websites/RU.png"></a>
+        <span></span>
+        <a href="https://www.aicte-india.org/"><img src="/images/other-websites/AICTE.png"></a>
+        <span></span>
+        <a href="https://www.nirfindia.org/Home"><img src="/images/other-websites/NIRF.png"></a>
+    </div>
+
+    <footer>
+        <div id="foot-top">
+            <div>
+                <h3>USEFUL RESOURCES</h3>
+                <a href="https://www.dspmuranchi.ac.in/pdf/Holiday_List_2023_DSPMU.pdf">Holiday List 2023</a>
+                <a href="https://www.dspmuranchi.ac.in/pdf/AcademicCalendar2021">Acedemic Calender <img
+                        src="/gif-image/newgreen.gif"></a>
+                <a href="https://www.dspmuranchi.ac.in/pdf/MoU_INFLIBNET.pdf">MoU with Inflibnet</a>
+                <a href="#">Downloads</a>
+            </div>
+            <div>
+                <h3>STAFF LINKS</h3>
+                <a href="#">Teachers Login</a>
+                <a href="#">Teacher's Blogs</a>
+                <a href="#">Archive Admin Login</a>
+                <a href="#">Student Login (Session 2016 & before)</a>
+            </div>
+            <div>
+                <h3>USEFUL LINKS</h3>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Teaching Staff</a>
+                <a href="#">Non-Teaching Staff</a>
+            </div>
+            <div id="footer-contact">
+                <div class="logo">
+                    <img src="/images/logo.png">
+                </div>
+                <ul>
+                    <li>Dr. Shyama Prasad Mukherjee University</li>
+                    <li>Add:P.O. - Ranchi University Morabadi Ranchi- 834008</li>
+                    <li>Call:+91 860 304 8085</li>
+                    <li>Email:registrar@dspmuranchi.ac.in</li>
+                    <li>
+                        <ul id="sites">
+                            <li><i class="fa-brands fa-facebook-f" style="color: #1764e8;"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in" style="color: #294e8e;"></i></li>
+                            <li><i class="fa-brands fa-instagram" style="color: #e21d72;"></i></li>
+                            <li><i class="fa-brands fa-twitter" style="color: #1d65e2;"></i></li>
+                            <li><i class="fa-brands fa-youtube" style="color: #f31b1b;"></i></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="foot-bottom">
+            Copyright 2022 <a href="/HTML/index.html" target="_blank">Dr. Shyama Prasad Mukherjee University</a>
+            Designed By <a href="#">Dept. of
+                MCA</a>
+        </div>
+    </footer>
+
+    <script src="/JS/slider.js"></script>
+    <script src="/JS/pop-up-menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+#upper-strip {
+    background-color: rgb(12, 117, 203);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#upper-strip ul {
+    display: flex;
+    margin-right: 144px;
+}
+
+#upper-strip ul li {
+    list-style: none;
+    padding: 10px 8px;
+    color: white;
+    font-size: 12px;
+}
+
+#upper-strip a {
+    color: white;
+    text-decoration: none;
+}
+
+#college-intro {
+    display: flex;
+    justify-content: center;
+    background: #d4daf185;
+    padding: 7px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#logo {
+    margin: 0 90px;
+}
+
+#logo img {
+    border-radius: 131px;
+    height: 100px;
+    width: 100px;
+}
+
+#banner {
+    text-align: center;
+    color: #232ab8;
+}
+
+#banner h1 {
+    font-size: 25px;
+}
+
+#banner h2 {
+    font-size: 20px;
+}
+
+nav {
+    background: #936e96;
+    color: white;
+    font-size: 13px;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 115px;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    list-style: none;
+    border-right: 1px solid black;
+}
+
+#container {
+    margin: 60px auto;
+    width: 85%;
+    border: 1px px solid black;
+    padding: 10px 25px;
+    border-radius: 11px;
+    background: #96ece6a3;
+}
+
+.note {
+    margin: 20px 0;
+    color: red;
+    font-size: 14px;
+}
+
+#container h2 {
+    font-size: 17px;
+    color: #1325f7;
+    padding: 23px 0;
+    border-bottom: 2px solid #acacff;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 50%;
+    margin: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-bottom: 26px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 14px;
+}
+
+.box ul li {
+    margin: 5px;
+}
+
+.heading-green {
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: arial;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.heading-green img {
+    margin-right: 11px;
+}
+
+.box form {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.box table {
+    width: 100%;
+    text-align: left;
+    height: 240px;
+}
+
+.box form input {
+    width: 95%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+select {
+    font-size: 15px;
+    width: 29%;
+    padding: 6px;
+    color: #5d5757;
+}
+
+.select-space {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.box form button { 
+    color: white;
+    background: blue;
+    padding: 6px 18px;
+    font-size: 14px;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    margin-top: 19px;
+    cursor: pointer;
+
+}
+
+.box li i {
+    margin-right: 6px;
+}
+
+.logged-p {
+    font-size: 15px;
+    color: red;
+    padding: 3px 16px;
+}
+
+.small-font {
+    font-size: 12px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
