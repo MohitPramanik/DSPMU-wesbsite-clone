@@ -1,0 +1,217 @@
+@media (min-width:1285px) {
+    .nav-menu:hover .pop {
+        display: flex; 
+    }
+}
+
+@media (max-width: 1284px) {
+    #web-link-first {
+        display: none;
+    }
+
+    #slider-button {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 62px;
+        box-sizing: border-box;
+        top: 259px;
+        right: 0;
+    }
+
+    #pop-up-menu {
+        position: absolute;
+        left: 0;
+        background: white;
+        z-index: 2;
+        width: 282px;
+        top: 133px;
+    }
+
+    .pop {
+        left: 158px;
+        padding: 19px 0 0px 0;
+        margin-left: -16px;
+        width: 265px;
+        position: static;
+        display: flex;
+        animation: none;
+    }
+
+
+    .pop li {
+        background-color: #e1e1e1;
+        width: 77%;
+    }
+
+    .hide {
+        display: none !important;
+    }
+
+    #pop-up-menu ul {
+        flex-direction: column;
+    }
+
+
+    #hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1329px) {
+    #foot-top>div {
+        width: 314px;
+    }
+}
+
+@media (max-width: 1330px) and (min-width: 750px) {
+    .heading h1 {
+        font-size: 27px;
+    }
+
+    .tab-buttons li {
+        font-size: 14px;
+    }
+
+    #news marquee li span {
+        font-size: 11px;
+        border-radius: 35px;
+    }
+
+    .tab-content {
+        font-size: 12px;
+    }
+
+    #more button {
+        font-size: 14px;
+    }
+
+    #news marquee li a {
+        font-size: 12px;
+    }
+
+    #one-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 42%;
+    }
+
+    #more {
+        width: 91%;
+        flex-wrap: wrap;
+    }
+
+    .data-box {
+        width: 24%;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .emails {
+        text-align: center;
+    }
+
+    #related-websites a {
+        margin: 12px 85px;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    #video-button {
+        height: 22px;
+        width: 22px;
+        font-size: 13px;
+    }
+
+    #foot-top>div {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1072px) and (min-width: 750px) {
+    #related-websites a {
+        margin: 12px 95px;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .emails {
+        text-align: center;
+    }
+
+    #data-display {
+        background-image: none;
+    }
+}
+
+@media (max-width: 905px) {
+    #more>div {
+        width: 90%;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    #contact {
+        flex-direction: column;
+        width: 69%;
+    }
+
+    .emails {
+        text-align: center;
+    }
+
+    .large {
+        font-size: 18px;
+    }
+
+    #data-display {
+        background-image: none;
+    }
+}
+
+@media (max-width: 750px) {
+    #one-box {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 85%;
+    }
+
+    .data-box {
+        width: 62%;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    #hamburger {
+        left: 30px;
+    }
+
+    .logo img {
+        height: 45px;
+    }
+    
+    #pop-up-menu {
+        top: 113px;
+    }
+    
+
+}
